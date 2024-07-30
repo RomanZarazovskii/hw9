@@ -1,0 +1,2 @@
+const e=document.querySelector(".todo__form"),t=JSON.parse(localStorage.getItem("selectedTodos"))||{};e.addEventListener("change",(function(e){t[e.target.name]=e.target.checked,localStorage.setItem("selectedTodos",JSON.stringify(t))})),function(){const t=localStorage.getItem("selectedTodos");if(t){const o=JSON.parse(t);Object.entries(o).forEach((([t,o])=>{const c=e.querySelector(`input[name="${t}"]`);c&&(c.checked=o)}))}}();
+//# sourceMappingURL=task-1.0c2bb278.js.map
