@@ -1,0 +1,20 @@
+.todo__section {}
+
+.todo__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.todo__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo__label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.todo__input {}
