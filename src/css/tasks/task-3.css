@@ -1,0 +1,22 @@
+.user__form {
+    width: 480px;
+}
+
+.user__form>label {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__form input {
+    font: inherit;
+    padding: 8px;
+    outline: 1px solid black;
+
+}
+
+.user__form button {
+    padding: 10px;
+    border: 1px solid black;
+}
