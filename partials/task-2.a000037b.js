@@ -1,0 +1,2 @@
+const e=document.querySelector(".feedback__form");e.addEventListener("submit",(function(t){t.preventDefault();const a={name:t.target.name.value,message:t.target.message.value};console.log(a),localStorage.setItem("feedbackData",JSON.stringify(a)),e.reset()})),function(){const t=localStorage.getItem("feedbackData");if(t){const a=JSON.parse(t);e.elements.name.value=a.name,e.elements.message.value=a.message}}();
+//# sourceMappingURL=task-2.a000037b.js.map

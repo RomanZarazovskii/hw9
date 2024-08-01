@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".user__form");e.addEventListener("submit",(function(t){t.preventDefault();var r=e.elements.login.value,s=e.elements.password.value;if("submit-btn"===t.submitter.id){var a={userLogin:r,userPassword:s};localStorage.setItem("userData",JSON.stringify(a)),alert("User registered")}if("login-btn"===t.submitter.id){var i={userLogin:r,userPassword:s},n=localStorage.getItem("userData");JSON.stringify(i)===n?alert("Welcome!"):alert("User not found")}e.reset()}))}();
+//# sourceMappingURL=task-3.6e63b61e.js.map
